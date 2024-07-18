@@ -5,8 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star Rating</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <main class="wrapper">
+        <div class="post">
+            <div class="text">Thanks for rating us!</div>
+            <div class="edit">EDIT</div>
+        </div>
+
+        <div class="star-widget">
+            <input type="radio" name="rate" id="rate-5">
+            <label for="rate-5" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-4">
+            <label for="rate-4" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-3">
+            <label for="rate-3" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-2">
+            <label for="rate-2" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-1">
+            <label for="rate-1" class="fas fa-star"></label>
+
+            <form action="#">
+                <header></header>
+                <div class="btn">
+                    <button type="submit">rate</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
